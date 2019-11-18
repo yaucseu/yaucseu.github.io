@@ -26,6 +26,15 @@ h3{ padding: 0px; }
 .boxcross:before {left: 5px;}
 .boxcross:after {right: 5px;}
 .boxcross p {margin: 0; padding: 0; text-align:center;}
+.row-first{margin:-1em 0 1em 0; display:inline}
+.row-first:before, .row:after {content:" "; display:table}
+.row-first:after{clear:both}
+.row{margin:1em 0; float:left; display:inline}
+.row:before, .row:after {content:" "; display:table}
+.row:after{clear:both}
+.participants-wrap{margin:1em; float:left; display:inline}
+.col-sm1{width:45%; min-height:1px; float:left; position:relative; margin: 0 .5em; padding:0 12px}
+.col-sm2{width:45%; min-height:1px; float:left; position:relative; margin: 0 .5em; padding:0 12px}
 .access1{width:980px; padding-bottom:5px; overflow: hidden;}
 .access1 .text1{float:left; width:660px; text-align:left; margin: 0 20px;}
 .access1 .map1{float:right; width:280px; }
