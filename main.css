@@ -27,7 +27,7 @@ li{margin:none; padding:none;}
 .upcoming{font-size:x-large;  font-style: normal; font-variant: normal; font-weight: 400; line-height: 1.3; margin:10px 0 ; padding:0;} 
 .footer{margin 30px 0 0 0; padding 0;}
 .footer-content{margin:-10px 0 0 0; padding:0; float:right;}
-/* people, panel view */
+/* member */
 .people-list{margin: 20px 0 60px 0;}
 .pltable{border-spacing: 0; width: 100%;}
 .plName{width: 120px; border-bottom: 1px solid #e1e1e1; padding: 20px 10px; text-align: left;}
@@ -35,7 +35,7 @@ li{margin:none; padding:none;}
 .plEmail{width: 100px; border-bottom: 1px solid #e1e1e1; padding: 20px 10px; text-align: left;}
 .plOffice{width: 100px; border-bottom: 1px solid #e1e1e1; padding: 20px 10px; text-align: left;}
 .plInterest{min-width: 200px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
-/* people, seminar, workshop */
+/* seminar, workshop */
 .seminar-list{margin: 15px 0 30px 0;}
 .semtable{border-spacing: 0; width: 100%;}
 .semDate{width: 80px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
@@ -43,6 +43,13 @@ li{margin:none; padding:none;}
 .semTitle{border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .wsDates{width: 140px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .wsName{border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
+/* outreach */
+.outreach-content{}
+.what-we-do{}
+.what-we-do > p {margin:10px; padding:0;}
+.reading-mat{}
+.reading-mat > p {margin:10px; padding:0;}
+.reading-mat > ol > li {margin:10px; padding:0;}
 /* visitor info header */
 .infotop{width:770px;height:50px;margin:0; padding:0;background: rgb(.6,.6,.6); background: rgba(.6,.6,.6,.6);}
 .info-container{}
