@@ -79,10 +79,6 @@ li{margin:none; padding:none;}
 .travel-tips{width:770px;}
 .travel-p {margin:10px; padding:0;}
 /* vacancy */
-.prof-call{}
-.prof-call > p{margin:0 0 0 20px; padding:0;}
-.pd-call{}
-.pd-call > p{margin:0 0 0 20px; padding:0;}
-.student-call{}
-.student-call > p{margin:0 0 0 20px; padding:0;}
+.vac-call{}
+.vac-call > p{margin:0 0 0 20px; padding:0;}
 .disclaimer{margin: 80px 40px 20px 40px; padding:0;  }
