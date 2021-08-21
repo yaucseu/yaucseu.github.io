@@ -38,8 +38,8 @@ li{margin:none; padding:none;}
 /* seminar, workshop */
 .seminar-list{margin: 15px 0 30px 0;}
 .semtable{border-spacing: 0; width: 100%;}
-.semDate{width: 80px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
-.semSpeaker{width: 160px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
+.semDates{width: 140px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
+.semName{width: 300px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .semTitle{border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .wsDates{width: 140px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .wsName{width: 300px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
