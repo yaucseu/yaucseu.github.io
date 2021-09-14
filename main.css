@@ -41,7 +41,7 @@ li{margin:none; padding:none;}
 .semDates{width: 140px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .semName{width: 300px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .semTitle{border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
-.semAbst{border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
+.semAbst{border-bottom: 1px solid #e1e1e1; padding: 0px 10px; text-align: left;}
 .wsDates{width: 140px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .wsName{width: 300px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 .wsTitle{border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
