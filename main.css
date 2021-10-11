@@ -21,12 +21,21 @@ li{margin:none; padding:none;}
 .container .sidenav .sidemenu a:hover {color: tomato;}
 .container .sidenav .sidemenu_on {padding:6px; font-size:x-large; display: block;}
 .container .sidenav .sidemenu_on a {color: tomato;}
+/* long version */
+.container-long {position:relative;width:186px;height:2000px;margin:0;overflow:hidden;display: inline-block;overflow:hidden;}
+.container-long img {vertical-align:middle;}
+.container-long .sidenav{width:160px; position:fixed; top:12px; left:12px; padding:15px 10px; background: rgb(.6,.6,.6); background: rgba(.6,.6,.6,.6);}
+.container-long .sidenav .sidemenu {padding:6px; font-size:x-large; display: block;}
+.container-long .sidenav .sidemenu a{color: ivory;}
+.container-long .sidenav .sidemenu a:hover {color: tomato;}
+.container-long .sidenav .sidemenu_on {padding:6px; font-size:x-large; display: block;}
+.container-long .sidenav .sidemenu_on a {color: tomato;}
 /* header, main, footer */
 .contents{max-width:800px;margin: 10px 0 0 20px;display:inline-table;vertical-align: top; overflow:scroll; position:absolute;}
 .head-contents{font-size:xx-large;  font-style: normal; font-variant: normal; font-weight: 400; line-height: 1.2; margin:0; padding:0;} 
 .upcoming{font-size:x-large;  font-style: normal; font-variant: normal; font-weight: 400; line-height: 1.3; margin:10px 0 ; padding:0;} 
-.footer{margin 30px 0 0 0; padding 0;}
-.footer-content{margin:-10px 0 0 0; padding:0; float:right;}
+.footer{margin 30px 0 0 0;padding 0;clear:both;}
+.footer-content{margin:-10px 0 0 0;padding:0;float:right;}
 /* member */
 .people-list{margin: 20px 0 60px 0;}
 .pltable{border-spacing: 0; width: 100%;}
@@ -36,6 +45,7 @@ li{margin:none; padding:none;}
 .plOffice{width: 100px; border-bottom: 1px solid #e1e1e1; padding: 20px 10px; text-align: left;}
 .plInterest{min-width: 90px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
 /* seminar, workshop */
+.intro{margin:20px 0; padding:0;}
 .seminar-list{margin: 15px 0 30px 0;}
 .semtable{border-spacing: 0; width: 100%;}
 .semDates{width: 140px; border-bottom: 1px solid #e1e1e1; padding: 10px; text-align: left;}
