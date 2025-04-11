@@ -2,8 +2,8 @@
  * 主要为了实现文章评价功能
  * add by lcfeng
  */
-;
-(function($) {
+$(document).ready(function() {
+
     $.fn.WPVisitCount = function(options) {
         var defaults = {};
         var options = $.extend(defaults, options);
@@ -190,11 +190,9 @@
                 }
             }
         });
-    }
-    ;
-})(jQuery);
+    };
 
-$(document).ready(function() {
+
     if ($('.WP_VisitCount').hasClass('WP_VisitCount')) {
         $('.WP_VisitCount').WPVisitCount();
     }
