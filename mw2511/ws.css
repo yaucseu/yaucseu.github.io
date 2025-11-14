@@ -55,3 +55,13 @@ mark{color:red;background-color:white;display:inline-block}
 .tableArea th{background:#ffffff;}
 .partTable td{padding-left:40px;}
 .talklist{padding:0;margin:0em 2em;list-style-type:none;}
+/* alternating row colors */
+.people-list{margin: 10px 0 10px 0; padding: 0 40px; max-width: 650px;}
+.pltable{border-spacing: 0; width: 100%; counter-reset:n}
+.pltable tbody tr:nth-child(even) {background-color: #fff;}
+.pltable tbody tr:nth-child(odd) {background-color: #eee;}
+.pltable tbody tr{counter-increment:n}
+.pltable tbody tr td.plNum::before{content:counter(n)}
+.plNum{width: 10px; border-bottom:1px solid #e1e1e1;padding:5px 0px 5px 20px;text-align:left}
+.plName{width: 20px; border-bottom: 1px solid #e1e1e1; padding: 0px; text-align: left;}
+.plAffl{width: 40px; border-bottom: 1px solid #e1e1e1; padding: 0px; text-align: left;}
